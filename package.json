@@ -1,0 +1,17 @@
+{
+  "name": "rising-devs-api",
+  "version": "0.0.1",
+  "description": "Rising Devs API",
+  "scripts": {
+    "start": "node Server.js"
+  },
+  "author": "Joon Park",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "cors": "^2.8.1",
+    "express": "^4.14.1",
+    "js-sha512": "^0.3.0",
+    "mysql": "^2.13.0"
+  }
+}
