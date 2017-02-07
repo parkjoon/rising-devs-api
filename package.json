@@ -8,12 +8,17 @@
   "author": "Joon Park",
   "license": "ISC",
   "dependencies": {
+    "auth0": "^2.6.0",
+    "auth0-api-jwt-rsa-validation": "0.0.1",
     "body-parser": "^1.16.0",
     "cors": "^2.8.1",
     "eslint": "^3.15.0",
     "eslint-plugin-react": "^6.9.0",
     "express": "^4.14.1",
+    "express-jwt": "^5.1.0",
     "js-sha512": "^0.3.0",
-    "mysql": "^2.13.0"
+    "mysql": "^2.13.0",
+    "node-env-file": "^0.1.8",
+    "request": "^2.79.0"
   }
 }

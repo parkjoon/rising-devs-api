@@ -1,4 +1,7 @@
+var env = require('node-env-file');
 var mysql = require('mysql');
+
+env('./.env');
 
 function REST_ROUTER(router, connection, sha512) {
 	var self = this;
@@ -12,6 +15,7 @@ REST_ROUTER.prototype.handleRoutes = function(router, connection, sha512) {
 
 	/* Freelancers */
 	router.get('/freelancers', function(req, res) {
+		// IMPLEMENT AUTH0 MANAGEMENT API
 		return { freelancerProfiles: [] };
 	});
 
